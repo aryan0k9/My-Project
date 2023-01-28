@@ -1,0 +1,12 @@
+.icon_desigin{
+    border: 8px solid #3A3B3C;
+    background-color: #3A3B3C;
+    border-radius: 50%;
+}
+.icon_hover_right:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3A3B3C;
+    cursor: pointer;
+}
