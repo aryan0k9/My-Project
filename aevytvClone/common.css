@@ -1,0 +1,28 @@
+.text_gradient_color{
+    background: #00D4FF;
+    background: -webkit-linear-gradient(to right, #00D4FF 18%, #7A13FF 57%, #DA4D8F 73%);
+    background: -moz-linear-gradient(to right, #00D4FF 18%, #7A13FF 57%, #DA4D8F 73%);
+    background: linear-gradient(to right, #00D4FF 18%, #7A13FF 57%, #DA4D8F 73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text_gradient_color_white{
+    background: #B0B0B0;
+    background: -webkit-linear-gradient(to right, #B0B0B0 49%, #F2F2F2 13%);
+    background: -moz-linear-gradient(to right, #B0B0B0 49%, #F2F2F2 13%);
+    background: linear-gradient(to right, #B0B0B0 49%, #F2F2F2 13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font_w_s_c_t{
+    text-align: center;
+    font-family: var(--primary_font_family);
+    font-weight: 300;
+    color: var(--secondary_color);
+    font-size: 3.1rem;
+}
+@media screen and (max-width:700px) {
+    .font_w_s_c_t{
+        font-size: 2rem;
+    }
+}
